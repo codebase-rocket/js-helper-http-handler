@@ -1,0 +1,50 @@
+{
+  "version": "2.0",
+  "routeKey": "POST /client-test",
+  "rawPath": "/client-test",
+  "rawQueryString": "get_key1=value1&get_key2=value2",
+  "cookies": [
+      "cookie-1=yoyoyo",
+      "cookie-2=oyoyoy",
+      "cookie-3=sososo"
+  ],
+  "headers": {
+      "accept": "*/*",
+      "accept-encoding": "gzip, deflate, br",
+      "cache-control": "no-cache",
+      "content-length": "10",
+      "content-type": "application/x-www-form-urlencoded",
+      "host": "api.example.com",
+      "my_key1": "somevalue",
+      "postman-token": "048f2823-d1e5-480e-bf76-ad8e942125e1",
+      "user-agent": "PostmanRuntime/7.29.2",
+      "x-amzn-trace-id": "Root=1-63a9e837-388c9d4745bb82781dfaf721",
+      "x-forwarded-for": "103.157.161.221",
+      "x-forwarded-port": "443",
+      "x-forwarded-proto": "https"
+  },
+  "queryStringParameters": {
+      "get_key1": "value1",
+      "get_key2": "value2"
+  },
+  "requestContext": {
+      "accountId": "1111111111",
+      "apiId": "1tcxpgrt47",
+      "domainName": "api.example.com",
+      "domainPrefix": "api",
+      "http": {
+          "method": "POST",
+          "path": "/client-test",
+          "protocol": "HTTP/1.1",
+          "sourceIp": "103.157.161.221",
+          "userAgent": "PostmanRuntime/7.29.2"
+      },
+      "requestId": "dxE4ogR3oAMESuw=",
+      "routeKey": "POST /client-test",
+      "stage": "$default",
+      "time": "26/Dec/2022:18:30:15 +0000",
+      "timeEpoch": 1672079415026
+  },
+  "body": "ZmQxPXF3ZXJ0eQ==",
+  "isBase64Encoded": true
+}

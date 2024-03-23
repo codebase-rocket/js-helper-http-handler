@@ -1,0 +1,93 @@
+{
+  "resource":"/client-test",
+  "path":"/testing/client-test",
+  "httpMethod":"POST",
+  "headers":{
+    "Accept":"*/*",
+    "Accept-Encoding":"gzip, deflate",
+    "Cache-Control":"no-cache",
+    "Content-Type":"application/x-www-form-urlencoded",
+    "Cookie":"cookie_key1=some_value; cookie_key2=some_other_value",
+    "header_key1":"somevalue",
+    "Host":"api.nopos.com",
+    "User-Agent":"PostmanRuntime/7.19.0",
+    "X-Amzn-Trace-Id":"Root=1-5ddd8b08-6019bd6eff63b39067bfb214",
+    "X-Forwarded-For":"171.78.248.7",
+    "X-Forwarded-Port":"443",
+    "X-Forwarded-Proto":"https"
+  },
+  "multiValueHeaders":{
+    "Accept":[
+      "*/*"
+    ],
+    "Accept-Encoding":[
+      "gzip, deflate"
+    ],
+    "Cache-Control":[
+      "no-cache"
+    ],
+    "Content-Type":[
+      "application/x-www-form-urlencoded"
+    ],
+    "Cookie":[
+      "cookie_key1=some_value; cookie_key2=some_other_value"
+    ],
+    "header_key1":[
+      "somevalue"
+    ],
+    "Host":[
+      "api.nopos.com"
+    ],
+    "User-Agent":[
+      "PostmanRuntime/7.19.0"
+    ],
+    "X-Amzn-Trace-Id":[
+      "Root=1-5ddd8b08-6019bd6eff63b39067bfb214"
+    ],
+    "X-Forwarded-For":[
+      "171.78.248.7"
+    ],
+    "X-Forwarded-Port":[
+      "443"
+    ],
+    "X-Forwarded-Proto":[
+      "https"
+    ]
+  },
+  "queryStringParameters":null,
+  "multiValueQueryStringParameters":null,
+  "pathParameters":null,
+  "stageVariables":null,
+  "requestContext":{
+    "resourceId":"l0qfyp",
+    "resourcePath":"/client-test",
+    "httpMethod":"POST",
+    "extendedRequestId":"DyKpZFoSoAMFj0w=",
+    "requestTime":"26/Nov/2019:20:28:56 +0000",
+    "path":"/testing/client-test",
+    "accountId":"218032107964",
+    "protocol":"HTTP/1.1",
+    "stage":"prod",
+    "domainPrefix":"api",
+    "requestTimeEpoch":1574800136814,
+    "requestId":"d3424717-f8ee-4ce5-93d1-e96d30cbfe8c",
+    "identity":{
+      "cognitoIdentityPoolId":null,
+      "accountId":null,
+      "cognitoIdentityId":null,
+      "caller":null,
+      "sourceIp":"171.78.248.7",
+      "principalOrgId":null,
+      "accessKey":null,
+      "cognitoAuthenticationType":null,
+      "cognitoAuthenticationProvider":null,
+      "userArn":null,
+      "userAgent":"PostmanRuntime/7.19.0",
+      "user":null
+    },
+    "domainName":"api.nopos.com",
+    "apiId":"nene49yad5"
+  },
+  "body":"post_key1=email%40test.com&post_key2=9999999999&post_key3={\"a\":\"val 1\",\"b\":\"val 2\"}",
+  "isBase64Encoded":false
+}

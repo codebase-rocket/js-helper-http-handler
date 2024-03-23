@@ -1,0 +1,16 @@
+# Test files
+_test
+
+# Action files
+.github
+
+# package directories
+node_modules
+package-lock.json
+jspm_packages
+
+# Mac OS Files
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*

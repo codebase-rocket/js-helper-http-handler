@@ -1,0 +1,27 @@
+{
+  "name": "@codebase-rocket/js-helper-http-handler",
+  "description": "Boilerplate library. Contains Functions for Incoming HTTP(s) request and its return Response.",
+  "version": "1.0.0",
+  "main": "http-handler.js",
+  "keywords": [],
+  "private": false,
+  "license": "Private",
+  "author": {
+    "name": "Shivanshu Jindal"
+  },
+  "contributors": [],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "cookie": "0.x",
+    "tldts": "5.x"
+  },
+  "devDependencies": {
+    "js-helper-utils": "npm:@codebase-rocket/js-helper-utils@^1.0.0",
+    "js-helper-debug": "npm:@codebase-rocket/js-helper-debug@^1.0.0",
+    "js-helper-crypto-nodejs": "npm:@codebase-rocket/js-helper-crypto-nodejs@^1.0.0",
+    "js-helper-instance": "npm:@codebase-rocket/js-helper-instance@^1.0.0"
+  }
+}

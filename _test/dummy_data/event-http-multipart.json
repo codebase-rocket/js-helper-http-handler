@@ -1,0 +1,103 @@
+{
+  "resource": "/client-test",
+  "path": "/testing/client-test",
+  "httpMethod": "GET",
+  "headers": {
+      "Accept": "*/*",
+      "Accept-Encoding": "gzip, deflate, br",
+      "Cache-Control": "no-cache",
+      "Content-Type": "multipart/form-data; boundary=--------------------------647757764728232038009600",
+      "Cookie": "tc_p64u3=ejj5f5r5gtde20wm8uqsgom6w-OApaQ1xhrDWzL7c8Yqv9-q3PXHVT40msoy87pwDzdj1FzuXj26W83CiR7gl25; tc_a1jmi=3cl6kfsrzd9bq5ysnt026o3bi-0VN0ou67p086L61xse9j-P0W8Fh27MrQfbJvcdUF7gB35AtjpAYfZkI2AX6a2; tc_cvdf2=c6y5nttbwfh5mpzhmmb6emyyf-y76DqlPyJBhzICWYQGOF-UrmJBS6k85EDr3OiYEjaADiBP01G00sh485r7auz; tc_p64u3=ejj5f5r5gtde20wm8uqsgom6w-1R8c2KSsf8EOo2zoC4Kb-cJvkJIO9UYAR5rx16titK3C4lp1bSNbOYof0Tvnw; ts_cvdf2-ena9p5g=8f2w4llihqarcms2nqcpxopi3-K8Ubcjnj9wo1U2XkqRm1-k4bH2jxvA2p56QRlmFKh1n7aDaRMxJkVa3u8elnU",
+      "Host": "api.nopos.com",
+      "my_key1": "somevalue",
+      "User-Agent": "PostmanRuntime/7.28.1",
+      "X-Amzn-Trace-Id": "Root=1-616d9270-277803cc30532ce00f85e905",
+      "X-Forwarded-For": "122.161.90.255",
+      "X-Forwarded-Port": "443",
+      "X-Forwarded-Proto": "https"
+  },
+  "multiValueHeaders": {
+      "Accept": [
+          "*/*"
+      ],
+      "Accept-Encoding": [
+          "gzip, deflate, br"
+      ],
+      "Cache-Control": [
+          "no-cache"
+      ],
+      "Content-Type": [
+          "multipart/form-data; boundary=--------------------------647757764728232038009600"
+      ],
+      "Cookie": [
+          "tc_p64u3=ejj5f5r5gtde20wm8uqsgom6w-OApaQ1xhrDWzL7c8Yqv9-q3PXHVT40msoy87pwDzdj1FzuXj26W83CiR7gl25; tc_a1jmi=3cl6kfsrzd9bq5ysnt026o3bi-0VN0ou67p086L61xse9j-P0W8Fh27MrQfbJvcdUF7gB35AtjpAYfZkI2AX6a2; tc_cvdf2=c6y5nttbwfh5mpzhmmb6emyyf-y76DqlPyJBhzICWYQGOF-UrmJBS6k85EDr3OiYEjaADiBP01G00sh485r7auz; tc_p64u3=ejj5f5r5gtde20wm8uqsgom6w-1R8c2KSsf8EOo2zoC4Kb-cJvkJIO9UYAR5rx16titK3C4lp1bSNbOYof0Tvnw; ts_cvdf2-ena9p5g=8f2w4llihqarcms2nqcpxopi3-K8Ubcjnj9wo1U2XkqRm1-k4bH2jxvA2p56QRlmFKh1n7aDaRMxJkVa3u8elnU"
+      ],
+      "Host": [
+          "api.nopos.com"
+      ],
+      "my_key1": [
+          "somevalue"
+      ],
+      "User-Agent": [
+          "PostmanRuntime/7.28.1"
+      ],
+      "X-Amzn-Trace-Id": [
+          "Root=1-616d9270-277803cc30532ce00f85e905"
+      ],
+      "X-Forwarded-For": [
+          "122.161.90.255"
+      ],
+      "X-Forwarded-Port": [
+          "443"
+      ],
+      "X-Forwarded-Proto": [
+          "https"
+      ]
+  },
+  "queryStringParameters": {
+      "get_key1": "value1",
+      "get_key2": "value2"
+  },
+  "multiValueQueryStringParameters": {
+      "get_key1": [
+          "value1"
+      ],
+      "get_key2": [
+          "value2"
+      ]
+  },
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+      "resourceId": "l0qfyp",
+      "resourcePath": "/client-test",
+      "httpMethod": "GET",
+      "extendedRequestId": "HaPRlGRjIAMFxQQ=",
+      "requestTime": "18/Oct/2021:15:27:44 +0000",
+      "path": "/testing/client-test",
+      "accountId": "218032107964",
+      "protocol": "HTTP/1.1",
+      "stage": "prod",
+      "domainPrefix": "api",
+      "requestTimeEpoch": 1634570864364,
+      "requestId": "4a1871d8-0668-453b-8681-1e81bef7cea7",
+      "identity": {
+          "cognitoIdentityPoolId": null,
+          "accountId": null,
+          "cognitoIdentityId": null,
+          "caller": null,
+          "sourceIp": "122.161.90.255",
+          "principalOrgId": null,
+          "accessKey": null,
+          "cognitoAuthenticationType": null,
+          "cognitoAuthenticationProvider": null,
+          "userArn": null,
+          "userAgent": "PostmanRuntime/7.28.1",
+          "user": null
+      },
+      "domainName": "api.nopos.com",
+      "apiId": "nene49yad5"
+  },
+  "body": "LS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLTY0Nzc1Nzc2NDcyODIzMjAzODAwOTYwMA0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJmZDEiDQoNCnF3ZXJ0eQ0KLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLTY0Nzc1Nzc2NDcyODIzMjAzODAwOTYwMA0KQ29udGVudC1EaXNwb3NpdGlvbjogZm9ybS1kYXRhOyBuYW1lPSJmZDIgYWJjIjsgZmlsZW5hbWU9InBheWxvYWQudHh0Ig0KQ29udGVudC1UeXBlOiB0ZXh0L3BsYWluDQoNCm15IGNvbnRlbnQKCmxpbmUgMgpsYXN0DQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tNjQ3NzU3NzY0NzI4MjMyMDM4MDA5NjAwLS0NCg==",
+  "isBase64Encoded": true
+}
